@@ -24,12 +24,11 @@ public class Main {
 
         while (true) {
 
-            Scanner sc = new Scanner(System.in);
             System.out.println("Введите количество рублей: ");
 
             try {
 
-                float x = sc.nextFloat();
+                float x = new Scanner(System.in).nextFloat();
 
                 if (x > 0) {
                     return x;
