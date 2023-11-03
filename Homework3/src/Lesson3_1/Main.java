@@ -17,8 +17,5 @@ public class Main {
     static void raschetTemperaturiPoFarengeitu(double temp) {
         double tempFar = temp * 1.8 + 32;
         System.out.println(tempFar);
-
-
     }
-
 }
